@@ -94,6 +94,7 @@
 /extensions/elgato-key-light                         @thomaspaulmann
 /extensions/elm-search                               @NeoVier
 /extensions/emoji                                    @FezVrasta
+/extensions/encoding-tools                           @eth-p
 /extensions/ens-name-lookup                          @Yukaii
 /extensions/envato                                   @Slllava
 /extensions/ethereum-utils                           @Destiner
@@ -186,6 +187,7 @@
 /extensions/lorem-ipsum                              @AntonNiklasson
 /extensions/macupdater                               @karlsander
 /extensions/markdown-reference                       @codedbyjordan
+/extensions/material-icons                           @creasty
 /extensions/microsoft-edge                           @KartikKumarSahoo @bromanko
 /extensions/mlb-scores                               @jso8910
 /extensions/mldocs                                   @sadanand-singh
@@ -201,6 +203,7 @@
 /extensions/nextjs-docs                              @PrasadChinwal
 /extensions/node-js-evaluate                         @selfish
 /extensions/nos-news                                 @Joran-Dob
+/extensions/noteplan-3                               @shakedlokits
 /extensions/notion                                   @HenriChabrand
 /extensions/nsis-reference                           @idleberg
 /extensions/obsidian                                 @marcjulianschwarz
