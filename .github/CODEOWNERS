@@ -38,6 +38,7 @@
 /extensions/calendly                                 @eluce2
 /extensions/can-i-use                                @thomaslombart
 /extensions/canvascast                               @YodaLightsabr
+/extensions/capture-raycast-metadata                 @CheatGZ
 /extensions/chakra-ui-docs                           @pgvr
 /extensions/change-case                              @es183923
 /extensions/change-scroll-direction                  @gregoralbrecht
@@ -72,6 +73,8 @@
 /extensions/dbtCloud                                 @zsombor-flds
 /extensions/debank                                   @Yukaii
 /extensions/deepcast                                 @mooxl @mooxl
+/extensions/defichain-dobby                          @adrian-schnell
+/extensions/defiscan                                 @adrian-schnell
 /extensions/designer-news                            @itsnwa
 /extensions/devdocs                                  @pomdtr
 /extensions/dex-screener                             @wp-lai
@@ -85,6 +88,8 @@
 /extensions/doppler-share-secrets                    @thomaspaulmann
 /extensions/dot-new                                  @natterstefan
 /extensions/dribbble                                 @gebeto
+/extensions/dropbox                                  @chyroc
+/extensions/easy-new-file                            @CheatGZ
 /extensions/element                                  @Aayush9029
 /extensions/elgato-key-light                         @thomaspaulmann
 /extensions/elm-search                               @NeoVier
@@ -132,6 +137,7 @@
 /extensions/harvest                                  @eluce2
 /extensions/hashnode                                 @dpnick
 /extensions/hazeover                                 @ratoru
+/extensions/hellonext-wallpapers                     @imkarthikk
 /extensions/helm-docs                                @tiagomichaelsousa
 /extensions/heroku                                   @Yukaii
 /extensions/hexlify                                  @gkpln3
@@ -172,6 +178,7 @@
 /extensions/lark                                     @tmkx
 /extensions/lark-applink                             @chyroc
 /extensions/lastfm                                   @eggsy
+/extensions/life-progress                            @CheatGZ
 /extensions/linguee                                  @geekdada
 /extensions/linux-command                            @jaywcjlove
 /extensions/lobsters                                 @dev99problems
@@ -191,6 +198,7 @@
 /extensions/netease-music                            @chyroc
 /extensions/netlify                                  @Destiner
 /extensions/nextcloud                                @uetchy
+/extensions/nextjs-docs                              @PrasadChinwal
 /extensions/node-js-evaluate                         @selfish
 /extensions/nos-news                                 @Joran-Dob
 /extensions/notion                                   @HenriChabrand
@@ -252,7 +260,7 @@
 /extensions/script-commands                          @unnamedd
 /extensions/script-kit                               @pomdtr
 /extensions/search-composer-packagist                @danyelkeddah
-/extensions/search-mdn                               @krzysztofzuraw
+/extensions/search-mdn                               @krzysztofzuraw @OBQun
 /extensions/search-notion                            @sadanand-singh
 /extensions/search-npm                               @mrmartineau
 /extensions/search-rubygems                          @aleks
