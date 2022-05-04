@@ -1,27 +1,28 @@
 import { exec } from "child_process";
 import util from "util";
-import fs, { accessSync, existsSync, lstatSync, mkdirSync, PathLike, readdirSync, rmSync, statSync } from "fs";
+import fs, { accessSync, existsSync, lstatSync, mkdirSync, PathLike, readdirSync, rm, rmSync, statSync } from "fs";
 import { basename, extname, join, resolve } from "path";
 import { homedir } from "os";
 import { Database } from "sql.js";
 import { getPreferenceValues, showToast, Toast } from "@raycast/api";
+import { Fzf } from "fzf";
 
 import {
   FILE_SIZE_UNITS,
   IGNORED_DIRECTORIES,
-  MAX_TMP_FILE_PREVIES_LIMIT,
+  MAX_TMP_FILE_PREVIEWS_LIMIT,
   NON_PREVIEWABLE_EXTENSIONS,
   TMP_FILE_PREVIEWS_PATH,
 } from "./constants";
 import { insertFile } from "./db";
 import { FileInfo, Preferences } from "./types";
-import { Fzf } from "fzf";
 
 export const fuzzyMatch = (source: string, target: string): number => {
   const result = new Fzf([target], { sort: false }).find(source);
   return result.length > 0 ? result[0].score : 0;
 };
 
+export const isEmpty = (text: string): boolean => text.trim().length === 0;
 const execAsync = util.promisify(exec);
 const isPathReadable = (path: PathLike): boolean => {
   try {
@@ -42,6 +43,14 @@ export const getDriveRootPath = (): string => {
 
   return resolve(preferences.googleDriveRootPath.trim().replace("~", homedir()));
 };
+export const getExcludePaths = (): Array<string> => {
+  const preferences = getPreferenceValues<Preferences>();
+  return preferences.excludePaths
+    .split(",")
+    .map((p) => p.trim())
+    .map((p) => p.replace("~", homedir()))
+    .map((p) => resolve(p));
+};
 const formatBytes = (sizeInBytes: number): string => {
   let unitIndex = 0;
   while (sizeInBytes >= 1024) {
@@ -58,11 +67,14 @@ export const getDirectories = (path: PathLike): Array<PathLike> =>
     .filter(isDirectory)
     .filter((dir) => !IGNORED_DIRECTORIES.includes(basename(dir)));
 
-export const saveFilesInDirectory = (path: PathLike, db: Database) =>
+export const saveFilesInDirectory = (path: PathLike, db: Database) => {
+  const preferences = getPreferenceValues<Preferences>();
+  const excludePaths = getExcludePaths();
   readdirSync(path).forEach((file) => {
     const filePath = join(path.toLocaleString(), file);
 
-    if (!isFile(filePath)) return;
+    if (!preferences.shouldShowDirectories && !isFile(filePath)) return;
+    if (excludePaths.includes(filePath)) return;
 
     const fileStats = statSync(filePath);
 
@@ -76,6 +88,7 @@ export const saveFilesInDirectory = (path: PathLike, db: Database) =>
       favorite: false,
     });
   });
+};
 
 const filePreviewPath = async (file: FileInfo): Promise<null | string> => {
   mkdirSync(TMP_FILE_PREVIEWS_PATH, { recursive: true });
@@ -86,19 +99,27 @@ const filePreviewPath = async (file: FileInfo): Promise<null | string> => {
     return null;
   }
 
-  try {
-    await execAsync(`qlmanage -t -s 256 ${escapePath(file.path)} -o ${TMP_FILE_PREVIEWS_PATH}`, {
-      timeout: 500 /* milliseconds */,
-      killSignal: "SIGKILL",
-    });
-  } catch (e) {
-    return null;
+  const filePreviewPath = join(TMP_FILE_PREVIEWS_PATH, `${file.name}.png`);
+
+  if (!pathExists(filePreviewPath)) {
+    try {
+      await execAsync(`qlmanage -t -s 256 ${escapePath(file.path)} -o ${TMP_FILE_PREVIEWS_PATH}`, {
+        timeout: 500 /* milliseconds */,
+        killSignal: "SIGKILL",
+      });
+    } catch (e) {
+      return null;
+    }
+  } else {
+    // Mark the file as accessed
+    const fileStats = statSync(filePreviewPath);
+    fs.utimesSync(filePreviewPath, new Date(), fileStats.mtime);
   }
 
-  return encodeURI(`file://${TMP_FILE_PREVIEWS_PATH}/${file.name}.png`);
+  return encodeURI(`file://${filePreviewPath}`);
 };
 
-export const clearFilePreviewsCache = (shouldShowToast = false) => {
+export const clearAllFilePreviewsCache = (shouldShowToast = true) => {
   if (pathExists(TMP_FILE_PREVIEWS_PATH)) {
     rmSync(TMP_FILE_PREVIEWS_PATH, { recursive: true, force: true });
   }
@@ -110,10 +131,29 @@ export const clearFilePreviewsCache = (shouldShowToast = false) => {
     });
 };
 
+const clearLeastAccessedFilePreviewsCache = (previewFiles: Array<string>) => {
+  if (!pathExists(TMP_FILE_PREVIEWS_PATH)) return;
+
+  const sortedFiles = previewFiles.sort((a, b) => {
+    const aStats = statSync(join(TMP_FILE_PREVIEWS_PATH, a));
+    const bStats = statSync(join(TMP_FILE_PREVIEWS_PATH, b));
+
+    return aStats.atimeMs - bStats.atimeMs;
+  });
+
+  sortedFiles.slice(0, sortedFiles.length - MAX_TMP_FILE_PREVIEWS_LIMIT).forEach((file) => {
+    rm(join(TMP_FILE_PREVIEWS_PATH, file), () => {
+      /* NoOp */
+    });
+  });
+};
+
 export const initialSetup = () => {
-  // If TMP_FILE_PREVIEWS_PATH contains more than 50 files, clear it.
-  if (pathExists(TMP_FILE_PREVIEWS_PATH) && readdirSync(TMP_FILE_PREVIEWS_PATH).length > MAX_TMP_FILE_PREVIES_LIMIT) {
-    clearFilePreviewsCache(false);
+  if (pathExists(TMP_FILE_PREVIEWS_PATH)) {
+    const previewFiles = readdirSync(TMP_FILE_PREVIEWS_PATH, "utf8");
+    if (previewFiles.length > MAX_TMP_FILE_PREVIEWS_LIMIT) {
+      clearLeastAccessedFilePreviewsCache(previewFiles);
+    }
   }
 };
 

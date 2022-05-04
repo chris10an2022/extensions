@@ -1,7 +1,7 @@
 # This file is generated. Do not modify directly.
 
 /extensions/1loc                                     @kud @sxn
-/extensions/1password7                               @khasbilegt @thomaspaulmann
+/extensions/1password7                               @khasbilegt @thomaspaulmann @dteare
 /extensions/8ball                                    @Gitsack
 /extensions/airport                                  @siddharthsharma94
 /extensions/algolia                                  @valentindotxyz
@@ -85,6 +85,7 @@
 /extensions/dex-screener                             @wp-lai
 /extensions/dict-cc                                  @natterstefan
 /extensions/diff-checker                             @Destiner
+/extensions/discord                                  @Aayush9029
 /extensions/displayplacer                            @eluce2
 /extensions/dock                                     @pradeepb28
 /extensions/docker                                   @priithaamer
@@ -94,6 +95,7 @@
 /extensions/dot-new                                  @natterstefan
 /extensions/dribbble                                 @gebeto
 /extensions/dropbox                                  @chyroc
+/extensions/eagle                                    @Yukaii
 /extensions/easy-new-file                            @koinzhang
 /extensions/element                                  @Aayush9029
 /extensions/elgato-key-light                         @thomaspaulmann
@@ -132,7 +134,7 @@
 /extensions/google-chrome                            @rgomezcasas @bromanko
 /extensions/google-chrome-profiles                   @frouo
 /extensions/google-cloud-platform-search             @klaa97
-/extensions/google-drive                             @vishaltelangre
+/extensions/google-drive                             @vishaltelangre @vishaltelangre
 /extensions/google-maps-search                       @ratoru
 /extensions/google-maven-repository                  @koinzhang
 /extensions/google-meet                              @vitoorgomes
@@ -145,11 +147,14 @@
 /extensions/harvest                                  @eluce2
 /extensions/hashnode                                 @dpnick
 /extensions/hazeover                                 @ratoru
+/extensions/hellonext-changelogs                     @heertheeswaran
 /extensions/hellonext-wallpapers                     @imkarthikk
 /extensions/helm-docs                                @tiagomichaelsousa
 /extensions/heroku                                   @Yukaii
 /extensions/hexlify                                  @gkpln3
 /extensions/hidden-icons                             @koinzhang
+/extensions/hide-mail                                @Flatroy
+/extensions/holodex                                  @uetchy
 /extensions/homeassistant                            @tonka3000 @altrdev
 /extensions/how-long-to-beat                         @Cronos87
 /extensions/http-status-codes                        @AlexVanderbist
@@ -218,7 +223,7 @@
 /extensions/node-js-evaluate                         @selfish
 /extensions/nos-news                                 @Joran-Dob
 /extensions/noteplan-3                               @shakedlokits
-/extensions/notion                                   @HenriChabrand
+/extensions/notion                                   @HenriChabrand @mathieudutour
 /extensions/nsis-reference                           @idleberg
 /extensions/obsidian                                 @marcjulianschwarz
 /extensions/office-quotes                            @braydoncoyer @sandypockets
@@ -230,8 +235,9 @@
 /extensions/parrot-translate                         @Haojen
 /extensions/party-parrot                             @thomaspaulmann
 /extensions/password-generator                       @joshuaiz
-/extensions/paste-without-formatting                 @koinzhang
+/extensions/paste-as-plain-text                      @koinzhang
 /extensions/pestphp-documentation                    @danyelkeddah
+/extensions/pexels                                   @koinzhang
 /extensions/phpmon                                   @nicoverbruggen
 /extensions/pinboard                                 @fe9lix
 /extensions/pipe-commands                            @pomdtr @gasolin
@@ -303,10 +309,11 @@
 /extensions/spatie-documentation                     @danyelkeddah
 /extensions/speedtest                                @tonka3000
 /extensions/spotify-controls                         @thomaspaulmann @altrdev @ron-myers @sandypockets
-/extensions/spotify-player                           @mattisssa
+/extensions/spotify-player                           @mattisssa @dillionverma
 /extensions/ssh-manager                              @scopsy
 /extensions/stackoverflow                            @sadanand-singh
 /extensions/stripe                                   @pradeepb28
+/extensions/supabase-docs                            @Isaiah-Hamilton
 /extensions/surge                                    @ysj151215
 /extensions/swift-evolution                          @BProg
 /extensions/switchhosts                              @tiancheng92
@@ -332,7 +339,7 @@
 /extensions/tunnelblick                              @SamuelNitsche
 /extensions/tuple                                    @inxilpro
 /extensions/tw-colorsearch                           @magicjaqk
-/extensions/twitch                                   @dieserRobin
+/extensions/twitch                                   @dieserRobin @suth @pernielsentikaer
 /extensions/twitter                                  @tonka3000
 /extensions/twitter-trendscast                       @pradeepb28
 /extensions/two-factor-authentication-code-generator @cjdenio
