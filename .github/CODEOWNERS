@@ -1,7 +1,7 @@
 # This file is generated. Do not modify directly.
 
 /extensions/1loc                                     @kud @sxn
-/extensions/1password7                               @khasbilegt @thomaspaulmann @dteare
+/extensions/1password                                @khasbilegt @thomaspaulmann @dteare @pernielsentikaer
 /extensions/8ball                                    @Gitsack
 /extensions/airport                                  @siddharthsharma94
 /extensions/algolia                                  @valentindotxyz
@@ -71,6 +71,7 @@
 /extensions/cricketcast                              @sampoder
 /extensions/css-gg                                   @astrit
 /extensions/cyberduck                                @scottaglia
+/extensions/cypress-docs                             @robertguss
 /extensions/dash                                     @RSO @sxn
 /extensions/datadog                                  @kudrykv @rcruzper @aexvir
 /extensions/datetime-format-converter                @yangxyo
@@ -116,6 +117,7 @@
 /extensions/flutter-pub-dev-search                   @prasadsunny1
 /extensions/fork-repositories                        @sxn
 /extensions/format-graphql                           @tngranados
+/extensions/frankerfacez                             @davidchalifoux
 /extensions/geohash-encode-decode                    @alrico88
 /extensions/gif-search                               @josephschmitt
 /extensions/git-repos                                @moored
@@ -199,6 +201,7 @@
 /extensions/life-progress                            @koinzhang
 /extensions/linguee                                  @geekdada
 /extensions/linux-command                            @jaywcjlove
+/extensions/liveblocks                               @andreaselia
 /extensions/lobsters                                 @dev99problems
 /extensions/logseq                                   @futantan
 /extensions/lorem-ipsum                              @AntonNiklasson
@@ -231,6 +234,7 @@
 /extensions/open-in-json-hero                        @ericallam
 /extensions/open-with-app                            @fturcheti
 /extensions/opsgenie                                 @ricoberger
+/extensions/parabol                                  @BartoszJarocki @BartoszJarocki
 /extensions/parcel-tracker                           @jjhok
 /extensions/parrot-translate                         @Haojen
 /extensions/party-parrot                             @thomaspaulmann
@@ -360,12 +364,14 @@
 /extensions/visual-studio-code-recent-projects       @thomaspaulmann @iainsimmons
 /extensions/vuejs-documentation                      @Dpblandin
 /extensions/vueuse-functions                         @noopurphalak
+/extensions/wakatime                                 @iammola
 /extensions/weather                                  @tonka3000
 /extensions/whatsapp                                 @vimtor
 /extensions/wikipedia                                @vimtor
 /extensions/wistia                                   @ddoria921
 /extensions/wolfram-alpha                            @mathieudutour
 /extensions/word-search                              @RishabSwift @thomaspaulmann
+/extensions/wrike                                    @suarez-agu
 /extensions/xcode                                    @SvenTiigi @qeude
 /extensions/xkcd                                     @maggie-j-liu
 /extensions/youdao-translate                         @tiancheng92
