@@ -86,7 +86,9 @@
 /extensions/dex-screener                             @wp-lai
 /extensions/dict-cc                                  @natterstefan
 /extensions/diff-checker                             @Destiner
+/extensions/dig                                      @danielbahl @pernielsentikaer
 /extensions/discord                                  @Aayush9029
+/extensions/discordjs-documentation                  @mah51
 /extensions/displayplacer                            @eluce2
 /extensions/dock                                     @pradeepb28
 /extensions/docker                                   @priithaamer
@@ -121,6 +123,7 @@
 /extensions/geohash-encode-decode                    @alrico88
 /extensions/gif-search                               @josephschmitt
 /extensions/git-repos                                @moored
+/extensions/gitee                                    @koinzhang
 /extensions/gitfox                                   @L3K0V
 /extensions/github-for-enterprise                    @Kinbaum @emanguy
 /extensions/github-gist                              @koinzhang
@@ -209,6 +212,7 @@
 /extensions/markdown-reference                       @codedbyjordan
 /extensions/masscode-assistant                       @antonreshetov
 /extensions/material-icons                           @creasty
+/extensions/maven-central-repository                 @koinzhang
 /extensions/mempool                                  @dillionverma
 /extensions/microsoft-edge                           @KartikKumarSahoo @bromanko
 /extensions/mlb-scores                               @jso8910
@@ -233,6 +237,7 @@
 /extensions/ones                                     @k8scat
 /extensions/open-in-json-hero                        @ericallam
 /extensions/open-with-app                            @fturcheti
+/extensions/openweathermap                           @tonka3000
 /extensions/opsgenie                                 @ricoberger
 /extensions/parabol                                  @BartoszJarocki @BartoszJarocki
 /extensions/parcel-tracker                           @jjhok
@@ -343,7 +348,7 @@
 /extensions/tunnelblick                              @SamuelNitsche
 /extensions/tuple                                    @inxilpro
 /extensions/tw-colorsearch                           @magicjaqk
-/extensions/twitch                                   @dieserRobin @suth @pernielsentikaer
+/extensions/twitch                                   @dieserRobin @suth @pernielsentikaer @MiracleXYZ
 /extensions/twitter                                  @tonka3000
 /extensions/twitter-trendscast                       @pradeepb28
 /extensions/two-factor-authentication-code-generator @cjdenio
