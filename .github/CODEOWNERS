@@ -303,6 +303,7 @@
 /extensions/ricescore                                @tonka3000
 /extensions/roblox-games                             @TayIorRobinson
 /extensions/rss-reader                               @fuksman
+/extensions/rsync-commands                           @maxfahl
 /extensions/sabnzbd                                  @jesse-c
 /extensions/safari                                   @loris @thomaspaulmann
 /extensions/script-commands                          @unnamedd
@@ -333,6 +334,7 @@
 /extensions/spotify-player                           @mattisssa @dillionverma
 /extensions/ssh-manager                              @scopsy
 /extensions/stackoverflow                            @sadanand-singh
+/extensions/stock-lookup                             @jones-sam
 /extensions/stripe                                   @pradeepb28
 /extensions/supabase-docs                            @Isaiah-Hamilton
 /extensions/surge                                    @ysj151215
