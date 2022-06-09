@@ -3,6 +3,7 @@
 /extensions/1loc                                     @kud @sxn
 /extensions/1password                                @khasbilegt @thomaspaulmann @dteare @pernielsentikaer
 /extensions/8ball                                    @Gitsack
+/extensions/airplane                                 @pradeepb28
 /extensions/airport                                  @siddharthsharma94
 /extensions/algolia                                  @valentindotxyz
 /extensions/aliyun-oss                               @yangxyo
@@ -43,12 +44,13 @@
 /extensions/calendar                                 @fuksman
 /extensions/calendly                                 @eluce2
 /extensions/can-i-use                                @thomaslombart
-/extensions/canvascast                               @YodaLightsabr
+/extensions/canvascast                               @YodaLightsabr @yug2005
 /extensions/capture-raycast-metadata                 @koinzhang
 /extensions/chakra-ui-docs                           @pgvr
 /extensions/change-case                              @es183923
 /extensions/change-scroll-direction                  @gregoralbrecht
 /extensions/cheatsheets                              @Destiner
+/extensions/chess-com                                @joshfarrant
 /extensions/choose-a-license                         @sandypockets @Aayush9029
 /extensions/circle-ci                                @qeude @kudrykv
 /extensions/citation-generator                       @AbhinavPalacharla
@@ -78,6 +80,7 @@
 /extensions/cratecast                                @gleich
 /extensions/cricketcast                              @sampoder
 /extensions/css-gg                                   @astrit
+/extensions/currency-exchange                        @xeric
 /extensions/cyberduck                                @scottaglia
 /extensions/cypress-docs                             @robertguss
 /extensions/dash                                     @RSO @sxn
@@ -100,7 +103,7 @@
 /extensions/displayplacer                            @eluce2
 /extensions/dock                                     @pradeepb28
 /extensions/dock-tinker                              @koinzhang
-/extensions/docker                                   @priithaamer
+/extensions/docker                                   @priithaamer @gebeto
 /extensions/dockerhub                                @k8scat
 /extensions/domainr                                  @Rawnly
 /extensions/doppler-share-secrets                    @thomaspaulmann
@@ -241,7 +244,7 @@
 /extensions/netease-music                            @chyroc
 /extensions/netlify                                  @Destiner
 /extensions/nextcloud                                @uetchy
-/extensions/nextjs-docs                              @PrasadChinwal
+/extensions/nextjs-docs                              @PrasadChinwal @vimtor
 /extensions/node-js-evaluate                         @selfish
 /extensions/nos-news                                 @Joran-Dob
 /extensions/noteplan-3                               @shakedlokits
