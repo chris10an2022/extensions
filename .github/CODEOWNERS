@@ -32,6 +32,7 @@
 /extensions/bitly-url-shortener                      @blessanm86
 /extensions/bitrise                                  @ubuntudroid
 /extensions/bitwarden                                @pomdtr @daniel-stoneuk @jomifepe @andreaselia
+/extensions/blockchain-explorer-search               @Namaskar-1F64F
 /extensions/brave                                    @ron-myers @rgomezcasas
 /extensions/brew                                     @nhojb
 /extensions/brew-services                            @es183923
@@ -60,6 +61,7 @@
 /extensions/clickup                                  @Ali-Parandeh
 /extensions/clockify                                 @ismamz @sxn
 /extensions/cloudflare                               @Destiner @niklaswa
+/extensions/code-stash                               @ben-greenwood
 /extensions/coffee                                   @mooxl @bibixx
 /extensions/coinbase-pro                             @farisaziz12
 /extensions/coingecko                                @Destiner @mike182uk
@@ -75,6 +77,7 @@
 /extensions/converter                                @koinzhang
 /extensions/copy-gcp-icons                           @pomdtr
 /extensions/copy-path                                @koinzhang
+/extensions/country-lookup                           @pernielsentikaer
 /extensions/cpf-cnpj-generator                       @gstvds
 /extensions/craftdocs                                @kudrykv @kudrykv
 /extensions/cratecast                                @gleich
@@ -108,6 +111,7 @@
 /extensions/domainr                                  @Rawnly
 /extensions/doppler-share-secrets                    @thomaspaulmann
 /extensions/dot-new                                  @natterstefan
+/extensions/drafts                                   @FlohGro-dev
 /extensions/dribbble                                 @gebeto
 /extensions/dropbox                                  @chyroc
 /extensions/eagle                                    @Yukaii
@@ -226,7 +230,9 @@
 /extensions/logseq                                   @futantan @futantan
 /extensions/lorem-ipsum                              @AntonNiklasson
 /extensions/macupdater                               @karlsander
+/extensions/mailsy                                   @BalliAsghar
 /extensions/markdown-reference                       @codedbyjordan
+/extensions/markdown-this                            @aravindballa
 /extensions/masscode-assistant                       @antonreshetov
 /extensions/material-icons                           @creasty
 /extensions/maven-central-repository                 @koinzhang
@@ -236,6 +242,7 @@
 /extensions/mldocs                                   @sadanand-singh
 /extensions/moji                                     @Kasper4649
 /extensions/monday                                   @freak4pc
+/extensions/multilinks                               @abhisheksatre
 /extensions/music                                    @Rawnly
 /extensions/must                                     @eggsy
 /extensions/myip                                     @kkange
@@ -359,7 +366,7 @@
 /extensions/system-monitor                           @hossammourad
 /extensions/tableplus                                @pernielsentikaer
 /extensions/tailscale                                @samlinville
-/extensions/tailwindcss                              @vimtor
+/extensions/tailwindcss                              @vimtor @macbookandrew
 /extensions/tapo-smart-devices                       @timrogers
 /extensions/temporary-email                          @natterstefan
 /extensions/terminalfinder                           @yedongze
