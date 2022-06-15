@@ -39,6 +39,7 @@
 /extensions/bttv-emote                               @Aayush9029
 /extensions/bugmenot                                 @Yukaii
 /extensions/buildkite                                @mskelton
+/extensions/bunch                                    @koinzhang
 /extensions/bundesliga                               @anhthang
 /extensions/bundlephobia-search                      @dgrzedzielski
 /extensions/cache-control-builder                    @rkusa
@@ -165,6 +166,7 @@
 /extensions/google-search                            @mblode
 /extensions/google-translate                         @gebeto @FezVrasta
 /extensions/google-trends                            @kkange
+/extensions/gopass                                   @bake
 /extensions/grafana                                  @Lp-Francois
 /extensions/graphcdn                                 @mathieudutour
 /extensions/hacker-news                              @thomaspaulmann @sxn
@@ -181,6 +183,7 @@
 /extensions/hide-mail                                @Flatroy
 /extensions/holodex                                  @uetchy
 /extensions/homeassistant                            @tonka3000 @altrdev
+/extensions/hostloc                                  @J3n5en
 /extensions/how-long-to-beat                         @Cronos87
 /extensions/http-status-codes                        @AlexVanderbist
 /extensions/huggingcast                              @ragnorc
@@ -231,6 +234,7 @@
 /extensions/lorem-ipsum                              @AntonNiklasson
 /extensions/macupdater                               @karlsander
 /extensions/mailsy                                   @BalliAsghar
+/extensions/mantine                                  @EmilMalanczak
 /extensions/markdown-reference                       @codedbyjordan
 /extensions/markdown-this                            @aravindballa
 /extensions/masscode-assistant                       @antonreshetov
@@ -262,6 +266,7 @@
 /extensions/office-quotes                            @braydoncoyer @sandypockets
 /extensions/ones                                     @k8scat
 /extensions/open-in-json-hero                        @ericallam
+/extensions/open-link-in-specific-browser            @koinzhang
 /extensions/open-path                                @koinzhang
 /extensions/open-with-app                            @fturcheti
 /extensions/openweathermap                           @tonka3000
@@ -272,6 +277,7 @@
 /extensions/party-parrot                             @thomaspaulmann
 /extensions/password-generator                       @joshuaiz
 /extensions/paste-as-plain-text                      @koinzhang
+/extensions/pastebin                                 @vimtor
 /extensions/pestphp-documentation                    @danyelkeddah
 /extensions/pexels                                   @koinzhang
 /extensions/phpmon                                   @nicoverbruggen
@@ -297,7 +303,6 @@
 /extensions/quick-event                              @mblode
 /extensions/quick-open-project                       @zerowidth
 /extensions/quick-search                             @iwfan
-/extensions/quick-surf                               @koinzhang
 /extensions/quickfile                                @danielroe
 /extensions/quicktime                                @pradeepb28
 /extensions/quicktype                                @Aayush9029
@@ -342,6 +347,7 @@
 /extensions/simple-youdao                            @xeric
 /extensions/simpread                                 @Kenshin
 /extensions/single-disk-eject                        @johndturn
+/extensions/sip                                      @jamesjlyons
 /extensions/sketch                                   @aesign
 /extensions/slack                                    @momme-rtf
 /extensions/slack-status                             @PitNikola
