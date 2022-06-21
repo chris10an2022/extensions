@@ -1,31 +1,27 @@
 {
-  "name": "code-stash",
-  "title": "Code Stash",
-  "description": "Searching git.. now you have two problems. Store chunks of code and retrieve them later",
-  "icon": "icon.png",
-  "author": "ben-greenwood",
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "spaces",
+  "title": "Spaces",
+  "description": "It's time to reclaim your workspace on macOS",
+  "icon": "spaces-icon.png",
+  "author": "pradeepb28",
   "categories": [
-    "Developer Tools"
+    "Productivity",
+    "Other"
   ],
   "license": "MIT",
   "commands": [
     {
-      "name": "index",
-      "title": "Code Stash",
-      "description": "Save and restore code snippets",
-      "mode": "view"
+      "name": "create-space",
+      "title": "Create Space",
+      "subtitle": "Spaces",
+      "description": "Opens a window to create a new workspace.",
+      "mode": "no-view"
     }
   ],
-  "keywords": [
-    "code",
-    "stash",
-    "git"
-  ],
   "dependencies": {
-    "@raycast/api": "^1.35.1",
-    "archiver": "^5.3.1",
-    "lang-detector": "^1.0.6",
-    "nanoid": "^3.3.4"
+    "@raycast/api": "^1.36.1",
+    "open": "^8.4.0"
   },
   "devDependencies": {
     "@types/node": "~16.10.0",
