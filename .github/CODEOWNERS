@@ -28,6 +28,7 @@
 /extensions/betterzip                                @koinzhang
 /extensions/biaodian                                 @gasolin
 /extensions/bible                                    @josmithua
+/extensions/bibmanager                               @AaronDavidSchneider
 /extensions/binance                                  @grzegorzkrukowski
 /extensions/bing-wallpaper                           @koinzhang
 /extensions/bitbucket                                @Lp-Francois @esarmstrong
@@ -67,6 +68,7 @@
 /extensions/clickup                                  @Ali-Parandeh
 /extensions/clockify                                 @ismamz @sxn
 /extensions/cloudflare                               @Destiner @niklaswa
+/extensions/coda-bookmarks-search                    @allienx
 /extensions/code-stash                               @ben-greenwood
 /extensions/coffee                                   @mooxl @bibixx
 /extensions/coinbase-pro                             @farisaziz12
@@ -197,6 +199,7 @@
 /extensions/huggingcast                              @ragnorc
 /extensions/iata-code-decoder                        @timrogers
 /extensions/iconify                                  @Destiner
+/extensions/iconpark                                 @koinzhang
 /extensions/imdb                                     @ryan-exe
 /extensions/inertiajs-documentation                  @danyelkeddah
 /extensions/ip-geolocation                           @koinzhang
@@ -260,6 +263,7 @@
 /extensions/must                                     @eggsy
 /extensions/myip                                     @kkange
 /extensions/n8n                                      @koinzhang
+/extensions/nanoid                                   @roelvan
 /extensions/nativebase-docs                          @ShubhamVerma1811
 /extensions/nba-game-viewer                          @AbhinavPalacharla
 /extensions/netease-music                            @chyroc
