@@ -116,7 +116,7 @@
 /extensions/dock                                     @pradeepb28
 /extensions/dock-tinker                              @koinzhang
 /extensions/docker                                   @priithaamer @gebeto
-/extensions/dockerhub                                @k8scat
+/extensions/dockerhub                                @k8scat @tonka3000
 /extensions/domainr                                  @Rawnly
 /extensions/doppler-share-secrets                    @thomaspaulmann
 /extensions/dot-new                                  @natterstefan
@@ -163,7 +163,7 @@
 /extensions/github-stars                             @mrmartineau
 /extensions/github-status                            @FezVrasta
 /extensions/gitignore                                @daniel-stoneuk
-/extensions/gitlab                                   @tonka3000 @Loskir @immint023 @duboiss
+/extensions/gitlab                                   @tonka3000 @Loskir @immint023 @duboiss @metakirby5
 /extensions/gitmoji                                  @ricoberger
 /extensions/go-package-search                        @bstncartwright
 /extensions/google-books                             @Ali-Parandeh
@@ -198,6 +198,7 @@
 /extensions/how-long-to-beat                         @Cronos87
 /extensions/http-status-codes                        @AlexVanderbist
 /extensions/huggingcast                              @ragnorc
+/extensions/hypersonic                               @prrrcl
 /extensions/iata-code-decoder                        @timrogers
 /extensions/iconify                                  @Destiner
 /extensions/iconpark                                 @koinzhang
@@ -285,6 +286,7 @@
 /extensions/open-link-in-specific-browser            @koinzhang
 /extensions/open-path                                @koinzhang
 /extensions/open-with-app                            @fturcheti
+/extensions/openfortivpn                             @rafalpetryka
 /extensions/openweathermap                           @tonka3000
 /extensions/opsgenie                                 @ricoberger
 /extensions/parabol                                  @BartoszJarocki @BartoszJarocki
@@ -339,6 +341,7 @@
 /extensions/reddit-search                            @ewlcheng
 /extensions/redmine                                  @jwickers
 /extensions/refresh-wifi                             @natterstefan
+/extensions/regex-tester                             @allenan
 /extensions/remember-the-date                        @pernielsentikaer
 /extensions/remove-background                        @maantje @FezVrasta
 /extensions/render                                   @Destiner
@@ -363,6 +366,7 @@
 /extensions/sf-symbols-search                        @peteschaffner
 /extensions/shell                                    @KELiON
 /extensions/shopify-developer-changelog              @sandypockets
+/extensions/short-io                                 @koinzhang
 /extensions/signal                                   @leeraymond78
 /extensions/simon                                    @andreaselia
 /extensions/simple-youdao                            @xeric
@@ -454,6 +458,7 @@
 /extensions/world-clock                              @koinzhang
 /extensions/wrike                                    @suarez-agu
 /extensions/xcode                                    @SvenTiigi @qeude
+/extensions/xid                                      @rosszurowski
 /extensions/xkcd                                     @maggie-j-liu
 /extensions/yandex-music                             @AlexStrNik
 /extensions/youdao-translate                         @tiancheng92
